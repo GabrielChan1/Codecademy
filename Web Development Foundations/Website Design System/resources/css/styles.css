@@ -1,0 +1,45 @@
+body {
+    font-family: Calibri, sans-serif;
+}
+
+section {
+    border: 2px solid grey;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+}
+
+pre {
+    margin: 0px;
+}
+
+section.element {
+    border: none;
+    display: inline-block;
+    margin: 0px auto;
+    padding: 0px;
+    width: 33%;
+}
+
+section.colours section.element {
+    text-align: center;
+}
+
+section.colours section.element h3 {
+    margin: 0px 0px 10px 0px;
+}
+
+section.fonts section.element p.font-name {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+h2.section-header {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1.title{
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px auto;
+    text-align: center;
+}

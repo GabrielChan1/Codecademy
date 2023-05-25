@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link to css file-->
+    <link href="./resources/css/styles.css" rel="stylesheet">
+    <title>HTML & CSS Cheat Sheet</title>
+</head>
+
+<!--
+    Row template
+    <tr>
+        <td class="tag-name"></td>
+        <td class="tag-uses"></td>
+        <td class="tag-format"><pre></pre></td>
+        <td class="tag-attributes"></td>
+        <td class="tag-prerequisites"></td>
+    </tr>
+-->
+<body>
+    <h1 class="title">Gabriel's HTML Cheat Sheet</h1>
+    <table>
+        <thead>
+            <th scope="col">Tag Name</th>
+            <th scope="col">Uses</th>
+            <th scope="col">Format</th>
+            <th scope="col">Notable Attributes</th>
+            <th scope="col">Prerequisites</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tag-name">HTML</td>
+                <td class="tag-uses">Acts as the root of the HTML document. Should contain all 
+                    HTML code.</td>
+                <td class="tag-format"><pre>&lt;html&gt;&lt;/html&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Head</td>
+                <td class="tag-uses">Creates a header section for the website. Generally contains
+                    metadata(data about the website) and links to external resources like 
+                    <pre>.css</pre> files.
+                </td>
+                <td class="tag-format"><pre>&lt;head&gt;&lt;/head&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Title</td>
+                <td class="tag-uses">Defines the title of the HTML document.</td>
+                <td class="tag-format"><pre>&lt;title&gt;&lt;/title&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">Needs to be a child element of a head tag</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Body</td>
+                <td class="tag-uses">Creates a body section for the website which contains the 
+                    elements of the website that are visible to the user.</td>
+                <td class="tag-format"><pre>&lt;body&gt;&lt;/body&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Footer</td>
+                <td class="tag-uses">Creates a footer section for the website. Generally contains
+                    contact information, copyright information, links to other pages, etc..</td>
+                <td class="tag-format"><pre>&lt;footer&gt;&lt;/footer&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Figure</td>
+                <td class="tag-uses">Creates a section for encapsulating media such as images or 
+                    videos along with any captions or descriptions of them.</td>
+                <td class="tag-format"><pre>&lt;figure&gt;&lt;/figure&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Figure Caption</td>
+                <td class="tag-uses">A container for descriptions of media such as images or videos.</td>
+                <td class="tag-format"><pre>&lt;figcaption&gt;&lt;/figcaption&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">Generally created as a child element of a figure tag</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Section</td>
+                <td class="tag-uses">Defines a section in a website. Typically used to define 
+                    elements such as chapters, headings, etc. that share the same theme.</td>
+                <td class="tag-format"><pre>&lt;section&gt;&lt;/section&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Article</td>
+                <td class="tag-uses">A container for independent, self contained content that 
+                    makes sense on its own. Typically used for forum posts, blog posts and news
+                    stories.</td>
+                <td class="tag-format"><pre>&lt;article&gt;&lt;/article&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Aside</td>
+                <td class="tag-uses">A container for additional, optional information that could
+                    enhance another element.</td>
+                <td class="tag-format"><pre>&lt;aside&gt;&lt;/aside&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Anchor</td>
+                <td class="tag-uses">An inline container for attaching hyperlinks to content.</td>
+                <td class="tag-format"><pre>&lt;a&gt;&lt;/a&gt;</pre></td>
+                <td class="tag-attributes">
+                    <ul>
+                        <li><pre>href</pre>: Contains the link to be attached to the contained 
+                            content.</li>
+                    </ul>
+                </td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Division</td>
+                <td class="tag-uses">Divides an HTML document into sections and contains the 
+                    content within these sections.</td>
+                <td class="tag-format"><pre>&lt;div&gt;&lt;/div&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Span</td>
+                <td class="tag-uses">An inline container for grouping text for styling purposes.</td>
+                <td class="tag-format"><pre>&lt;span&gt;&lt;/span&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Paragraph</td>
+                <td class="tag-uses">Contains and displays a block of text.</td>
+                <td class="tag-format"><pre>&lt;p&gt;&lt;/p&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Line Break</td>
+                <td class="tag-uses">Creates a line break in a body of text.</td>
+                <td class="tag-format"><pre>&lt;br&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Heading</td>
+                <td class="tag-uses">Increases the size of the text contained inside depending
+                    on the level used.
+                </td>
+                <td class="tag-format">
+                    <pre>&lt;h1&gt;&lt;/h1&gt;</pre><br>
+                    <pre>&lt;h2&gt;&lt;/h2&gt;</pre><br>
+                    <pre>&lt;h3&gt;&lt;/h3&gt;</pre><br>
+                    <pre>&lt;h4&gt;&lt;/h4&gt;</pre><br>
+                    <pre>&lt;h5&gt;&lt;/h5&gt;</pre><br>
+                    <pre>&lt;h6&gt;&lt;/h6&gt;</pre>
+                </td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Ordered List</td>
+                <td class="tag-uses">Creates an ordered list section where list elements could 
+                    be added.</td>
+                <td class="tag-format"><pre>&lt;ol&gt;&lt;/ol&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Unordered List</td>
+                <td class="tag-uses">Creates an unordered list section where list elements could 
+                    be added.</td>
+                <td class="tag-format"><pre>&lt;ul&gt;&lt;/ul&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">List Item</td>
+                <td class="tag-uses">Adds a list element to a list section.</td>
+                <td class="tag-format"><pre>&lt;li&gt;&lt;/li&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">Needs to be a child element of a list tag</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Emphasis</td>
+                <td class="tag-uses">Italicizes the text contained inside.</td>
+                <td class="tag-format"><pre>&lt;em&gt;&lt;/em&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Strong</td>
+                <td class="tag-uses">Bolds the text contained inside.</td>
+                <td class="tag-format"><pre>&lt;strong&gt;&lt;/strong&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Image</td>
+                <td class="tag-uses">Displays an image on the website.</td>
+                <td class="tag-format"><pre>&lt;img&gt;</pre></td>
+                <td class="tag-attributes">
+                    <ul>
+                        <li><pre>src</pre>: Contains the address or path to the image being
+                        displayed.</li>
+                        <li><pre>alt</pre>: Alternate content to be displayed if the image cannot
+                        be displayed.</li>
+                    </ul>
+                </td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Video</td>
+                <td class="tag-uses">Displays a video on the website.</td>
+                <td class="tag-format"><pre>&lt;video&gt;&lt;/video&gt;</pre></td>
+                <td class="tag-attributes">
+                    <ul>
+                        <li><pre>src</pre>: Contains the address or path to the video being
+                            displayed.</li>
+                        <li><pre>width</pre>: Sets the width of the video player.</li>
+                        <li><pre>height</pre>: Sets the height of the video player.</li>
+                        <li><pre>controls</pre>: Sets the controls for the video player. Setting no
+                            value will give basic controls.</li>
+                    </ul>
+                </td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Link</td>
+                <td class="tag-uses">Import resources such as <pre>.css</pre> files, fonts 
+                    or backgrounds to be used in the html code.</td>
+                <td class="tag-format"><pre>&lt;link&gt;</pre></td>
+                <td class="tag-attributes">
+                    <ul>
+                        <li><pre>href</pre>: Contains the address or path to the resource being 
+                            linked.</li>
+                        <li><pre>rel</pre>: Describes the relationship between the html and css 
+                            file.</li>
+                    </ul>
+                </td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Table</td>
+                <td class="tag-uses">Creates a table.</td>
+                <td class="tag-format"><pre>&lt;table&gt;&lt;/table&gt;</pre></td>
+                <td class="tag-attributes">
+                    <ul>
+                        <li><pre>border</pre>: Wraps the table in a border.</li>
+                    </ul>
+                </td>
+                <td class="tag-prerequisites">None</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Table Header</td>
+                <td class="tag-uses">Creates a header section for a table.</td>
+                <td class="tag-format"><pre>&lt;thead&gt;&lt;/thead&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">Needs to be a child element of a table tag</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Table Body</td>
+                <td class="tag-uses">Creates a body section for a table.</td>
+                <td class="tag-format"><pre>&lt;tbody&gt;&lt;/tbody&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">Needs to be a child element of a table tag</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Table Footer</td>
+                <td class="tag-uses">Creates a footer section for a table.</td>
+                <td class="tag-format"><pre>&lt;tfoot&gt;&lt;/tfoot&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">Needs to be a child element of a table tag</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Table Row</td>
+                <td class="tag-uses">Creates a table row.</td>
+                <td class="tag-format"><pre>&lt;tr&gt;&lt;/tr&gt;</pre></td>
+                <td class="tag-attributes">None</td>
+                <td class="tag-prerequisites">Needs to be a child element of a table tag</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Table Header Cell</td>
+                <td class="tag-uses">Creates a cell in a table to be used as a header.</td>
+                <td class="tag-format"><pre>&lt;th&gt;&lt;/th&gt;</pre></td>
+                <td class="tag-attributes">
+                    <ul>
+                        <li><pre>scope</pre>: Classifies the purpose of a row or column. Also used by 
+                            screen readers to improve accessibility for visually impaired users.</li>
+                    </ul>
+                </td>
+                <td class="tag-prerequisites">Needs to be a child element of a table tag</td>
+            </tr>
+            <tr>
+                <td class="tag-name">Table Data Cell</td>
+                <td class="tag-uses">Creates a cell in a table to hold data.</td>
+                <td class="tag-format"><pre>&lt;td&gt;&lt;/td&gt;</pre></td>
+                <td class="tag-attributes">
+                    <ul>
+                        <li><pre>colspan</pre>: Sets the number of columns this data cell will
+                        occupy.</li>
+                        <li><pre>rowspan</pre>: Sets the number of rows this data cell will
+                        occupy.</li>
+                        <li><pre>border</pre>: Wraps the cell in a border.</li>
+                    </ul>
+                </td>
+                <td class="tag-prerequisites">Needs to be a child element of a table tag</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

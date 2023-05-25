@@ -1,0 +1,34 @@
+Positioning:
+  - position
+  - z-index
+  - float
+
+Aesthetic:
+  - border
+  - color
+  - background 
+  - width
+  - height
+  - object-fit
+  - box
+  - cursor
+
+Spacing:
+  - margin
+  - padding
+
+Formatting:
+  - display
+  - flex-direction
+  - justify-content
+  - align-items
+  - text-align
+  - flex
+  - grid-column
+  - grid-row
+
+Font:
+  - font-family
+  - font-size
+  - font-weight
+  - text-decoration

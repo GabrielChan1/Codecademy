@@ -1,0 +1,22 @@
+  * {
+    font-family: Helvetica;
+  }
+  
+  h1.title {
+    background-image: url("../images/Image\ 1.jpeg");
+    color: khaki;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  strong {
+    color: blue;
+    font-weight: bold;
+  }
